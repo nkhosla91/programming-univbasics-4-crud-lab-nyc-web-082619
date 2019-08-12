@@ -19,13 +19,13 @@ end
 def remove_element_from_end_of_array(array)
   array = []
   narr = array.pop
-  p narr
+  return narr
 end
 
 def remove_element_from_start_of_array(array)
   array = []
   narr = array.shift
-  p narr
+  return narr
 end
 
 def retrieve_element_from_index(array, index_number)
